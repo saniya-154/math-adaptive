@@ -43,8 +43,8 @@ text
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/math-adaptive-prototype.git
-   cd math-adaptive-prototype
+   git clone https://github.com/saniya-154/math-adaptive.git
+   cd math-adaptive
 Create virtual environment
 
 bash
