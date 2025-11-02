@@ -30,43 +30,33 @@ An AI-powered adaptive math learning system that personalizes puzzle difficulty 
 
 1. **Clone the repository**
    ```bash
-<<<<<<< HEAD
    git clone https://github.com/saniya-154/math-adaptive.git
    cd math-adaptive
-Create virtual environment
-=======
-   git clone https://github.com/YOUR_USERNAME/math-adaptive-prototype.git
-   cd math-adaptive-prototype
 
 ### Create virtual environment
->>>>>>> aa0b44c7db3874ba3fc45e2bf37fea3f12946b44
 
-bash
-python -m venv math_env
-math_env\Scripts\activate  # Windows
+- python -m venv math_env
+- math_env\Scripts\activate  # Windows
 #### OR
-source math_env/bin/activate  # macOS/Linux
+- source math_env/bin/activate  # macOS/Linux
 
 ### Install dependencies
 
-bash
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ## Running the Application
 
 ### Start the Backend Server (Terminal 1)
 
-bash
-cd backend
-python main.py
-Server runs on: http://localhost:8000
+- cd backend
+- python main.py
+- Server runs on: http://localhost:8000
 
 ### Start the Frontend (Terminal 2)
 
-bash
-cd frontend
-streamlit run app.py
-App runs on: http://localhost:8501
+- cd frontend
+- streamlit run app.py
+- App runs on: http://localhost:8501
 
 ## 🎯 How It Works
 
