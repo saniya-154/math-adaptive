@@ -18,20 +18,7 @@ An AI-powered adaptive math learning system that personalizes puzzle difficulty 
 - **Data Visualization**: Plotly charts for progress analytics
 
 ## 📋 Project Structure
-math-adaptive-prototype/
-├── backend/
-│ ├── main.py # FastAPI server with adaptive logic
-│ ├── models.py # Pydantic models and data structures
-│ ├── puzzle_generator.py # Math puzzle generation by difficulty
-│ ├── adaptive_engine.py # Core adaptive learning algorithm
-│ └── tracker.py # Performance tracking system
-├── frontend/
-│ └── app.py # Streamlit web interface
-├── requirements.txt # Project dependencies
-├── .gitignore # Git ignore rules
-└── README.md # Project documentation
-
-text
+<img width="682" height="422" alt="image" src="https://github.com/user-attachments/assets/abd8b745-f612-480e-b96e-2e05d6230d80" />
 
 ## 🚀 Quick Start
 
@@ -45,118 +32,125 @@ text
    ```bash
    git clone https://github.com/YOUR_USERNAME/math-adaptive-prototype.git
    cd math-adaptive-prototype
-Create virtual environment
+
+### Create virtual environment
 
 bash
 python -m venv math_env
 math_env\Scripts\activate  # Windows
-# OR
+#### OR
 source math_env/bin/activate  # macOS/Linux
-Install dependencies
+
+### Install dependencies
 
 bash
 pip install -r requirements.txt
-Running the Application
-Start the Backend Server (Terminal 1)
+
+## Running the Application
+
+### Start the Backend Server (Terminal 1)
 
 bash
 cd backend
 python main.py
 Server runs on: http://localhost:8000
 
-Start the Frontend (Terminal 2)
+### Start the Frontend (Terminal 2)
 
 bash
 cd frontend
 streamlit run app.py
 App runs on: http://localhost:8501
 
-🎯 How It Works
-User Starts Session: Chooses initial difficulty (Easy/Medium/Hard)
+## 🎯 How It Works
 
-Puzzle Generation: System generates math problems appropriate to current level
+- User Starts Session: Chooses initial difficulty (Easy/Medium/Hard)
 
-Performance Tracking: Records correctness and response time for each answer
+- Puzzle Generation: System generates math problems appropriate to current level
 
-Adaptive Adjustment:
+- Performance Tracking: Records correctness and response time for each answer
 
-2+ consecutive correct answers → Increase difficulty
+- Adaptive Adjustment:
 
-2+ consecutive wrong answers → Decrease difficulty
+   2+ consecutive correct answers → Increase difficulty
 
-Progress Analytics: Real-time charts show accuracy and response time trends
+   2+ consecutive wrong answers → Decrease difficulty
 
-📊 Adaptive Logic
+- Progress Analytics: Real-time charts show accuracy and response time trends
+
+## 📊 Adaptive Logic
 The system uses a rule-based approach:
 
-Easy: Single-digit addition/subtraction
+- Easy: Single-digit addition/subtraction
 
-Medium: Two-digit operations, simple multiplication
+- Medium: Two-digit operations, simple multiplication
 
-Hard: Larger numbers, division, complex operations
+- Hard: Larger numbers, division, complex operations
 
 Adaptation based on:
 
-Correct/incorrect answer patterns
+- Correct/incorrect answer patterns
 
-Response time thresholds
+- Response time thresholds
 
-Consecutive performance streaks
+- Consecutive performance streaks
 
-🎨 Features Demo
-Interactive Math Challenges: Dynamic puzzle generation
+## 🎨 Features Demo
 
-Real-time Performance Metrics: Live accuracy and timing stats
+- Interactive Math Challenges: Dynamic puzzle generation
 
-Visual Progress Tracking: Plotly charts for analytics
+- Real-time Performance Metrics: Live accuracy and timing stats
 
-Session Summaries: Detailed performance reports
+- Visual Progress Tracking: Plotly charts for analytics
 
-Personalized Recommendations: AI-driven learning suggestions
+- Session Summaries: Detailed performance reports
+
+- Personalized Recommendations: AI-driven learning suggestions
 
 🔧 API Endpoints
-POST /start-session - Initialize learning session
+- POST /start-session - Initialize learning session
 
-POST /get-puzzle - Generate new math puzzle
+- POST /get-puzzle - Generate new math puzzle
 
-POST /submit-answer - Submit answer and get adaptive response
+- POST /submit-answer - Submit answer and get adaptive response
 
-GET /session-summary/{user_id} - Get comprehensive session report
+- GET /session-summary/{user_id} - Get comprehensive session report
 
-📝 Assignment Requirements
+## 📝 Assignment Requirements
 ✅ Core Components Implemented:
 
-Puzzle Generator with 3 difficulty levels
+- Puzzle Generator with 3 difficulty levels
 
-Performance Tracker (correctness, response time)
+- Performance Tracker (correctness, response time)
 
-Adaptive Engine (rule-based logic)
+- Adaptive Engine (rule-based logic)
 
-Progress Summary with analytics
+- Progress Summary with analytics
 
 ✅ Technical Features:
 
-FastAPI RESTful backend
+- FastAPI RESTful backend
 
-Streamlit interactive frontend
+- Streamlit interactive frontend
 
-Real-time data visualization
+- Real-time data visualization
 
-Modular, extensible architecture
+- Modular, extensible architecture
 
-🤝 Contributing
-Fork the repository
+## 🤝 Contributing
 
-Create a feature branch (git checkout -b feature/amazing-feature)
+- Fork the repository
 
-Commit your changes (git commit -m 'Add amazing feature')
+- Create a feature branch (git checkout -b feature/amazing-feature)
 
-Push to the branch (git push origin feature/amazing-feature)
+- Commit your changes (git commit -m 'Add amazing feature')
 
-Open a Pull Request
+- Push to the branch (git push origin feature/amazing-feature)
 
-📄 License
+- Open a Pull Request
+
+## 📄 License
 This project is created for educational purposes as part of an adaptive learning assignment.
 
-👥 Authors
-Your Name - Initial work
+## 👥 Authors
+Saniya Sayyed
